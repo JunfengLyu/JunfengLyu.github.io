@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "Alan's Physic World"
 title_separator          : "-"
-name                     : &name "Alan Lyu(吕骏峰)"
+name                     : &name "Alan Lyu"
 description              : &description "It's Okay to not be Okay"
 url                      : https://junfenglyu.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,7 +22,7 @@ repository               : "JunfengLyu/JunfengLyu.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Alan Lyu(吕骏峰)"
+  name             : "Alan Lyu"
   pronouns         : # example: "she/her"  
   bio              : "Eureka!"
   location         : "Beijing, China"
