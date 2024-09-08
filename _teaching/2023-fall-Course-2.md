@@ -1,5 +1,5 @@
 ---
-title: "Linear Algebra"
+title: "Linear Algebra(线性代数)"
 collection: Course Notes
 type: "Mathematics Course"
 permalink: /notes/LinearAlgebra
