@@ -8,7 +8,7 @@ date: 2024-09-01
 location: "Beijing, China"
 ---
 
-This page displays my notes from Prof. Biao Wu(吴飙)'s classical mechanics class. The copyright of the lecture notes belongs to Prof. Biao Wu. 
+This page displays my notes from Prof. Biao Wu(吴飙)'s classical mechanics class. The copyright of lectures belongs to Prof. Biao Wu. 
 
 Chapter1+Chapter2[绪论+时间、空间与运动](../files/CourseNotes/ClassicalMechanics/Chapter1绪论+Chapter2时间、空间与运动.pdf)
 
