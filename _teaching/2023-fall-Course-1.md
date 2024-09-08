@@ -1,5 +1,5 @@
 ---
-title: "Classical Mechanics"
+title: "Classical Mechanics(经典力学)"
 collection: Course Notes
 type: "General Physics"
 permalink: /notes/ClassicalMechanics
