@@ -4,7 +4,7 @@ collection: Course Notes
 type: "Undergraduate course"
 permalink: /notes/ClassicalMechanics
 venue: "Peking University"
-date: 2024-09-01
+date: 2023-09-01
 location: "Beijing, China"
 ---
 
