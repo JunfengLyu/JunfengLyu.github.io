@@ -8,7 +8,7 @@ date: 2023-09-01
 location: "Beijing, China"
 ---
 
-This page displays my notes from Prof. Yunfeng Zhang(张云峰)'s linear algebra class.
+This page displays my notes from Lecturer Yunfeng Zhang(张云峰)'s linear algebra class.
 
 Chapter1 线性方程组
 ======
