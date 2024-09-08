@@ -1,7 +1,7 @@
 ---
 title: "Linear Algebra"
 collection: Course Notes
-type: "Undergraduate course"
+type: "Mathematics Course"
 permalink: /notes/LinearAlgebra
 venue: "Peking University"
 date: 2023-09-01
