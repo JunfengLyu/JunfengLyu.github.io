@@ -1,5 +1,5 @@
 ---
-title: "Electromagnetics"
+title: "Electromagnetics(电磁学A)"
 collection: Course Notes
 type: "General Physics"
 permalink: /notes/Electromagnetics
