@@ -1,7 +1,7 @@
 ---
 title: "Classical Mechanics"
 collection: Course Notes
-type: "Undergraduate course"
+type: "General Physics"
 permalink: /notes/ClassicalMechanics
 venue: "Peking University"
 date: 2023-09-01
