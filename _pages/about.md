@@ -1,34 +1,30 @@
 ---
 layout: about
-title: about
+title: Alan Lyu
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Biophysics &middot; Computational Neuroscience
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: Alan_Lyu.jpg
+  image_circular: true
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><a href="https://english.pku.edu.cn/">Peking University</a></p>
+    <p>Beijing, China</p>
+    <p><a href="mailto:junfenglyu7@gmail.com">junfenglyu7@gmail.com</a></p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My name is **Alan Lyu (吕骏峰)**. I am completing my third year at the [School of Physics, Peking University](https://english.phy.pku.edu.cn/), while pursuing a double major in [Life Sciences at Peking University](https://www.bio.pku.edu.cn/en/). In summer 2025, I attended the [QBio 2025 Summer School at Peking University](https://qbio.pku.edu.cn/QB2025/). In summer 2026, I joined the [Quantitative Biology Institute at Yale University](https://qbio.yale.edu/) for a research internship and academic visit.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+[Download my CV]({{ '/assets/pdf/Alan_Lyu_CV.pdf' | relative_url }}).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research interests lie at the intersection of biophysics and computational neuroscience. I use the language and tools of physics—including information theory, stochastic thermodynamics, and dynamical equations—to understand how complex behavior, structure, and function emerge in living systems. Recently, my work has focused on information-theoretic approaches to two questions: the behavioral significance of state transitions in *Bacillus subtilis* and the principles governing information processing in the *Drosophila* olfactory circuit. I am always happy to discuss related ideas; please feel free to [contact me](mailto:junfenglyu7@gmail.com).

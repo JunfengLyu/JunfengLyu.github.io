@@ -1,0 +1,16 @@
+:root {
+  --global-theme-color: #005eb8;
+  --global-hover-color: #003f88;
+  --global-highlight-color: #005eb8;
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #64b5f6;
+  --global-hover-color: #90caf9;
+  --global-highlight-color: #64b5f6;
+}
+
+.profile img {
+  border: 3px solid color-mix(in srgb, var(--global-theme-color) 35%, transparent);
+  box-shadow: 0 12px 30px color-mix(in srgb, var(--global-theme-color) 18%, transparent);
+}
