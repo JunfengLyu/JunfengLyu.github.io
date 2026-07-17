@@ -7,7 +7,7 @@ The site is built with [al-folio](https://github.com/alshedivat/al-folio) and de
 ## Site structure
 
 - `Alan Lyu`: biography, research interests, contact details, and profile links
-- `Research & Publications`: reserved for research summaries and publications
+- `Research`: reserved for research summaries and publications
 - `Lecture Notes`: reserved for course notes and learning materials
 - `CV`: current PDF CV and a future web version
 

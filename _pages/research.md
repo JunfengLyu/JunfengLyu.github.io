@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research & Publications
+title: Research
 permalink: /research/
 nav: true
 nav_order: 2
