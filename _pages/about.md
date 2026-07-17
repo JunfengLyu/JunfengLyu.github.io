@@ -8,10 +8,7 @@ profile:
   align: right
   image: Alan_Lyu.jpg
   image_circular: true
-  more_info: >
-    <p><a href="https://english.pku.edu.cn/">Peking University</a></p>
-    <p>Beijing, China</p>
-    <p><a href="mailto:junfenglyu7@gmail.com">junfenglyu7@gmail.com</a></p>
+  more_info:
 
 selected_papers: false
 social: true
