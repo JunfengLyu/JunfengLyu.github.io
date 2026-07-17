@@ -23,7 +23,7 @@ latest_posts:
   enabled: false
 ---
 
-My name is **Alan Lyu (吕骏峰)**. I am completing my third year at the [School of Physics, Peking University](https://english.phy.pku.edu.cn/), while pursuing a double major in [Life Sciences at Peking University](https://www.bio.pku.edu.cn/en/). In summer 2025, I attended the [QBio 2025 Summer School at Peking University](https://qbio.pku.edu.cn/QB2025/). In summer 2026, I joined the [Quantitative Biology Institute at Yale University](https://qbio.yale.edu/) for a research internship and academic visit.
+My name is **Alan Lyu (吕骏峰)**. I am a third-year undergraduate student at the [School of Physics, Peking University](https://english.phy.pku.edu.cn/), while also pursuing a double degree in Life Sciences at the [School of Life Sciences, Peking University](https://www.bio.pku.edu.cn/en/). In summer 2025, I attended the [QBio 2025 Summer School at Peking University](https://qbio.pku.edu.cn/QB2025/). In summer 2026, I joined the [Quantitative Biology Institute at Yale University](https://qbio.yale.edu/) for a research internship and academic visit.
 
 [Download my CV]({{ '/assets/pdf/Alan_Lyu_CV.pdf' | relative_url }}).
 
