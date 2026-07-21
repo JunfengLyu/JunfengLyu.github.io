@@ -25,10 +25,11 @@
 \usepackage{needspace}
 \usepackage{paracol}
 \usepackage{tabularx}
+\usepackage{tcolorbox}
 \usepackage{titlesec}
 \usepackage[
   pdftitle={Alan Lyu's CV},
-  pdfauthor={Junfeng Alan Lyu},
+  pdfauthor={Alan Lyu},
   pdfcreator={LaTeX},
   colorlinks=true,
   urlcolor=primaryColor
@@ -70,6 +71,20 @@
   [\vspace{1pt}\titlerule]
 
 \titlespacing{\section}{-1pt}{0.3cm}{0.2cm}
+
+\newtcolorbox{gpanote}{
+  colback=RoyalPurple!6!white,
+  colframe=RoyalPurple!32!white,
+  boxrule=0.4pt,
+  arc=2mm,
+  left=1.5mm,
+  right=1.5mm,
+  top=1mm,
+  bottom=1mm,
+  before skip=0.2cm,
+  after skip=0.2cm,
+  fontupper=\footnotesize
+}
 
 \renewcommand\labelitemi{$\circ$}
 
@@ -140,7 +155,7 @@
   \sbox\ANDbox{}
 
   \begin{header}
-    \textbf{\fontsize{24pt}{24pt}\selectfont Junfeng Alan Lyu}
+    \textbf{\fontsize{24pt}{24pt}\selectfont Alan Lyu}
 
     \vspace{0.3cm}
 
@@ -160,11 +175,29 @@
     \mbox{\hrefWithoutArrow{https://junfenglyu.github.io/}{\color{black}{\footnotesize\faLink}\hspace*{0.13cm}junfenglyu.github.io}}%
   \end{header}
 
-  % Rename, reorder, duplicate, or delete these empty sections as needed.
-  % Use onecolentry, twocolentry, highlights, and highlightsforbulletentries
-  % for future content.
+  \section{Summary}
+  \begin{onecolentry}
+    I am Alan Lyu, an undergraduate student majoring in Physics at Peking University while also pursuing a second degree in Life Sciences. My research interests are biophysics and computational neuroscience. I use tools and frameworks from physics to study how complex structures and functions emerge in living systems. I hope to pursue doctoral study in biophysics, physics, or computational neuroscience.
+  \end{onecolentry}
 
   \section{Education}
+  \begin{twocolentry}{\textit{Sep. 2023 -- Jul. 2027 (expected)}}
+    \textbf{Peking University}, Bachelor of Science
+  \end{twocolentry}
+
+  \vspace{0.1cm}
+  \begin{onecolentry}
+    \begin{highlights}
+      \item \textbf{Major:} \href{https://english.phy.pku.edu.cn/}{Physics}
+      \item \textbf{Second Degree:} \href{https://www.bio.pku.edu.cn/en/}{Life Science}
+      \item \textbf{CGPA:} 3.87/4.00*
+      \item[]
+        \begin{gpanote}
+          \textit{* Note: Beginning in fall 2025, the School of Physics at Peking University no longer provides official GPA or cohort ranking documents. The GPA shown here is provisional and will be updated using a WES evaluation.}
+        \end{gpanote}
+      \item \textbf{Related Coursework:} \underline{3.99} in Thermal Physics; \underline{3.91} in Equilibrium Statistical Physics; \underline{3.95} in Methods for Mathematical Physics; \underline{3.97} in Electrodynamics; \underline{3.93} in Computational Physics; \underline{3.88} in Topics on Nonlinear Physics; \underline{A-} in Physical Chemistry in Cellular and Molecular Biology; \underline{3.95} in Lectures on Systems Biology; \underline{A} in Fundamentals of Network Science and Systems Biology; \underline{A} in Mathematical Modeling in the Life Sciences.
+    \end{highlights}
+  \end{onecolentry}
 
   \section{Standardized Tests}
 
