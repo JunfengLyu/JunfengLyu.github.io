@@ -4,12 +4,9 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 4
-description: Curriculum vitae of Alan Lyu.
 ---
 
-## Curriculum Vitae
-
-[Download the current PDF version]({{ '/assets/pdf/Alan_Lyu_CV.pdf' | relative_url }}).
+Click <a href="{{ '/assets/pdf/Alan_Lyu_CV.pdf' | relative_url }}" download>here</a> to download a PDF version of CV.
 
 ## Summary
 
