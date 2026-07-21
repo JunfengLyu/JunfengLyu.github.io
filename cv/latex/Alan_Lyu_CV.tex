@@ -1,55 +1,174 @@
-%% Based on the official moderncv template.
-%% Copyright 2006-2015 Xavier Danaux and 2020-2026 moderncv maintainers.
-%% Distributed under the LaTeX Project Public License, version 1.3c.
+\documentclass[10pt,letterpaper]{article}
 
-\documentclass[11pt,a4paper,sans]{moderncv}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{primaryColor}{RGB}{0,79,144}
+\usepackage[
+  ignoreheadfoot,
+  top=2cm,
+  bottom=2cm,
+  left=2cm,
+  right=2cm,
+  footskip=1cm
+]{geometry}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{calc}
+\usepackage{changepage}
+\usepackage{enumitem}
+\usepackage{eso-pic}
+\usepackage{etoolbox}
+\usepackage{fontawesome}
+\usepackage{graphicx}
+\usepackage{ifthen}
+\usepackage{iftex}
+\usepackage{lastpage}
+\usepackage{needspace}
+\usepackage{paracol}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage[
+  pdftitle={Alan Lyu's CV},
+  pdfauthor={Junfeng Alan Lyu},
+  pdfcreator={LaTeX},
+  colorlinks=true,
+  urlcolor=primaryColor
+]{hyperref}
+\usepackage{bookmark}
 
-\moderncvcolor{blue}
-\moderncvstyle{classic}
+\setlist[enumerate,1]{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=5pt}
+\setlist[itemize,1]{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=5pt}
+\setlist[description]{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=5pt}
 
-\usepackage[scale=0.82]{geometry}
-\setlength{\hintscolumnwidth}{2.7cm}
-\nopagenumbers{}
+% Keep text searchable and readable by applicant tracking systems.
+\ifPDFTeX
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+  \usepackage[utf8]{inputenc}
+  \usepackage{lmodern}
+\fi
 
-% Match the blue used on the homepage.
-\definecolor{color1}{HTML}{005EB8}
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt}
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\topskip}{0pt}
+\setlength{\columnsep}{0cm}
 
-\name{Alan}{Lyu}
-\title{Curriculum Vitae}
-\address{Peking University}{Beijing, China}{}
-\email{junfenglyu7@gmail.com}
-\homepage{junfenglyu.github.io}
-\social[github]{JunfengLyu}
-\social[orcid]{0009-0001-9827-3482}
+\makeatletter
+\let\ps@customFooterStyle\ps@plain
+\patchcmd{\ps@customFooterStyle}{\thepage}{
+  \color{gray}\textit{\small Alan Lyu - Page \thepage{} of \pageref*{LastPage}}
+}{}{}
+\makeatother
+\pagestyle{customFooterStyle}
+
+\titleformat{\section}
+  {\needspace{4\baselineskip}\bfseries\large}
+  {}
+  {0pt}
+  {}
+  [\vspace{1pt}\titlerule]
+
+\titlespacing{\section}{-1pt}{0.3cm}{0.2cm}
+
+\renewcommand\labelitemi{$\circ$}
+
+\newenvironment{highlights}{
+  \begin{itemize}[
+    topsep=0.1cm,
+    parsep=0.1cm,
+    partopsep=0pt,
+    itemsep=0pt,
+    leftmargin=0.4cm + 10pt
+  ]
+}{
+  \end{itemize}
+}
+
+\newenvironment{highlightsforbulletentries}{
+  \begin{itemize}[
+    topsep=0.1cm,
+    parsep=0.1cm,
+    partopsep=0pt,
+    itemsep=0pt,
+    leftmargin=10pt
+  ]
+}{
+  \end{itemize}
+}
+
+\newenvironment{onecolentry}{
+  \begin{adjustwidth}{0.2cm + 0.00001cm}{0.2cm + 0.00001cm}
+}{
+  \end{adjustwidth}
+}
+
+\newenvironment{twocolentry}[2][]{
+  \onecolentry
+  \def\secondColumn{#2}
+  \setcolumnwidth{\fill,4.5cm}
+  \begin{paracol}{2}
+}{
+  \switchcolumn
+  \raggedleft
+  \secondColumn
+  \end{paracol}
+  \endonecolentry
+}
+
+\newenvironment{header}{
+  \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}
+}{
+  \par\kern\topsep
+}
+
+\let\hrefWithoutArrow\href
+\renewcommand{\href}[2]{
+  \hrefWithoutArrow{#1}{
+    \ifthenelse{\equal{#2}{}}{}{#2\ }
+    \raisebox{0.15ex}{\footnotesize\faExternalLink}
+  }
+}
 
 \begin{document}
-\makecvtitle
+  \newcommand{\AND}{
+    \unskip
+    \cleaders\copy\ANDbox\hskip\wd\ANDbox
+    \ignorespaces
+  }
+  \newsavebox\ANDbox
+  \sbox\ANDbox{}
 
-\section{Education}
-\cventry{2023--Present}{Undergraduate Student in Physics}{Peking University}{Beijing, China}{}{Double degree in Biology}
+  \begin{header}
+    \textbf{\fontsize{24pt}{24pt}\selectfont Junfeng Alan Lyu}
 
-\section{Research Experience}
-\cventry{2024--Present}{Undergraduate Researcher}{Tang Lab, Peking University}{Beijing, China}{Supervisor: Prof. Chao Tang}{
-  Studying information processing and state transitions in \textit{Bacillus subtilis}.
-}
-\cventry{Summer 2026}{Research Intern}{Emonet Lab, Yale University}{New Haven, CT}{Supervisor: Prof. Thierry Emonet}{
-  Studying information processing in the \textit{Drosophila} olfactory circuit.
-}
-\cventry{}{Undergraduate Researcher}{Peking University}{Beijing, China}{Supervisor: Prof. Yuhai Tu}{
-  Exploring physical principles of information processing in artificial neural networks.
-}
+    \vspace{0.3cm}
 
-\section{Research Interests}
-\cvitem{}{Biophysics, computational neuroscience, information theory, stochastic thermodynamics, and dynamical equations}
+    \normalsize
+    \mbox{{\color{black}\footnotesize\faMapMarker}\hspace*{0.13cm}Peking University}%
+    \kern 0.25cm%
+    \AND%
+    \kern 0.25cm%
+    \mbox{\hrefWithoutArrow{mailto:junfenglyu7@gmail.com}{\color{black}{\footnotesize\faEnvelopeO}\hspace*{0.13cm}junfenglyu7@gmail.com}}%
+    \kern 0.25cm%
+    \AND%
+    \kern 0.25cm%
+    \mbox{\hrefWithoutArrow{tel:+86-13521198682}{\color{black}{\footnotesize\faPhone}\hspace*{0.13cm}(+86) 13521198682}}%
+    \kern 0.25cm%
+    \AND%
+    \kern 0.25cm%
+    \mbox{\hrefWithoutArrow{https://junfenglyu.github.io/}{\color{black}{\footnotesize\faLink}\hspace*{0.13cm}junfenglyu.github.io}}%
+  \end{header}
 
-\section{Selected Programs}
-\cventry{Spring 2026}{Undergraduate Honors Program in Biology}{Peking University}{Beijing, China}{}{}
-\cventry{Summer 2025}{QBio Summer School}{Peking University}{Beijing, China}{}{}
+  % Rename, reorder, duplicate, or delete these empty sections as needed.
+  % Use onecolentry, twocolentry, highlights, and highlightsforbulletentries
+  % for future content.
 
-\section{Skills}
-\cvitem{Methods}{Information theory, stochastic thermodynamics, dynamical equations}
-% Add programming languages and research software with \cvitem{Programming}{...}
-% Add spoken languages with \cvitem{Languages}{...}
-% Add an Honors and Awards section when the entries are ready.
+  \section{Education}
 
+  \section{Standardized Tests}
+
+  \section{Research}
+
+  \section{Honors and Awards}
 \end{document}
