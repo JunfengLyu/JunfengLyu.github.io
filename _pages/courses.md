@@ -4,10 +4,9 @@ title: Courses
 permalink: /courses/
 nav: true
 nav_order: 3
-description: Coursework and downloadable notes by Alan Lyu.
 ---
 
-The table below summarizes my coursework by field. Available notes can be downloaded from the final column.
+Courses taken at Peking University.
 
 <div class="courses-table-wrap" role="region" aria-label="Course list" tabindex="0">
   <table class="courses-table">
