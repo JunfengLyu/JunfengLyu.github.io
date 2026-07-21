@@ -20,10 +20,10 @@ After checking the preview, run:
 make publish
 ```
 
-This compiles the CV and copies it to `assets/pdf/Alan_Lyu_CV.pdf`, which is the file linked from the About and CV pages. Commit and push both the LaTeX source and the updated PDF:
+This compiles the CV and copies it to `assets/pdf/Alan_Lyu_CV.pdf`, which is the file linked from the About and CV pages. Keep the web version in `_pages/cv.md` synchronized with the PDF, then commit and push the LaTeX source, the updated PDF, and the CV page:
 
 ```bash
-git add cv/latex assets/pdf/Alan_Lyu_CV.pdf
+git add cv/latex assets/pdf/Alan_Lyu_CV.pdf _pages/cv.md
 git commit -m "Update CV"
 git push origin main
 ```
