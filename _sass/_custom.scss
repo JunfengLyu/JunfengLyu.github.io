@@ -17,7 +17,7 @@ html[data-theme="dark"] {
 
 .courses-table-wrap {
   margin: 1.5rem 0 2.5rem;
-  overflow-x: auto;
+  overflow-x: visible;
   border: 1px solid color-mix(in srgb, var(--global-text-color) 14%, transparent);
   border-radius: 0.75rem;
   box-shadow: 0 10px 28px color-mix(in srgb, var(--global-text-color) 8%, transparent);
@@ -25,18 +25,48 @@ html[data-theme="dark"] {
 
 .courses-table {
   width: 100%;
-  min-width: 1180px;
+  min-width: 0;
   margin: 0;
   border-collapse: separate;
   border-spacing: 0;
-  font-size: 0.86rem;
+  table-layout: fixed;
+  font-size: 0.8rem;
   line-height: 1.35;
+
+  .col-field {
+    width: 11%;
+  }
+
+  .col-subregion {
+    width: 14%;
+  }
+
+  .col-course {
+    width: 20%;
+  }
+
+  .col-professor {
+    width: 24%;
+  }
+
+  .col-gpa {
+    width: 6%;
+  }
+
+  .col-semester {
+    width: 9%;
+  }
+
+  .col-notes {
+    width: 16%;
+  }
 
   th,
   td {
-    padding: 0.7rem 0.65rem;
+    padding: 0.55rem 0.35rem;
     text-align: center;
     vertical-align: middle;
+    overflow-wrap: anywhere;
     border-right: 1px solid color-mix(in srgb, var(--global-text-color) 10%, transparent);
     border-bottom: 1px solid color-mix(in srgb, var(--global-text-color) 10%, transparent);
   }
@@ -66,12 +96,7 @@ html[data-theme="dark"] {
   }
 
   .course-name {
-    min-width: 210px;
     font-weight: 550;
-  }
-
-  .course-professors {
-    min-width: 205px;
   }
 
   .course-professor {
@@ -83,14 +108,11 @@ html[data-theme="dark"] {
     white-space: nowrap;
   }
 
-  .course-notes {
-    min-width: 210px;
-  }
-
   .course-note-link {
     display: inline-block;
     margin: 0.12rem 0;
     font-weight: 550;
+    white-space: nowrap;
   }
 
   .field-physics > td {
@@ -130,8 +152,15 @@ html[data-theme="dark"] .courses-table {
 
 @media (max-width: 767px) {
   .courses-table-wrap {
-    margin-right: -0.75rem;
-    margin-left: -0.75rem;
     border-radius: 0.5rem;
+  }
+
+  .courses-table {
+    font-size: clamp(0.54rem, 1.65vw, 0.72rem);
+
+    th,
+    td {
+      padding: 0.35rem 0.12rem;
+    }
   }
 }
