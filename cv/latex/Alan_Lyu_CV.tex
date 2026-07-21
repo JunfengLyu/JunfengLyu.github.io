@@ -25,6 +25,7 @@
 \usepackage{needspace}
 \usepackage{paracol}
 \usepackage{tabularx}
+\usepackage{tcolorbox}
 \usepackage{titlesec}
 \usepackage[
   pdftitle={Alan Lyu's CV},
@@ -70,6 +71,20 @@
   [\vspace{1pt}\titlerule]
 
 \titlespacing{\section}{-1pt}{0.3cm}{0.2cm}
+
+\newtcolorbox{gpanote}{
+  colback=RoyalPurple!6!white,
+  colframe=RoyalPurple!32!white,
+  boxrule=0.4pt,
+  arc=2mm,
+  left=1.5mm,
+  right=1.5mm,
+  top=1mm,
+  bottom=1mm,
+  before skip=0.1cm,
+  after skip=0cm,
+  fontupper=\footnotesize
+}
 
 \renewcommand\labelitemi{$\circ$}
 
@@ -173,13 +188,15 @@
   \vspace{0.1cm}
   \begin{onecolentry}
     \begin{highlights}
-      \item Major in \textbf{Physics}, School of Physics
-      \item Second degree in \textbf{Life Sciences}, School of Life Sciences
-      \item \textbf{Overall GPA: 3.87/4.00*}
-      \item \textbf{Related Courses:} 3.99 in Thermal Physics; 3.91 in Equilibrium Statistical Physics; 3.95 in Methods for Mathematical Physics; 3.97 in Electrodynamics; 3.93 in Computational Physics; 3.88 in Topics on Nonlinear Physics; A- in Physical Chemistry in Cellular and Molecular Biology; 3.95 in Lectures on Systems Biology; A in Fundamentals of Network Science and Systems Biology; A in Mathematical Modeling in the Life Sciences.
+      \item \textbf{Major:} \href{https://english.phy.pku.edu.cn/}{Physics}
+      \item \textbf{Second Degree:} \href{https://www.bio.pku.edu.cn/en/}{Life Science}
+      \item \textbf{CGPA:} 3.87/4.00*
+      \item \textbf{Related Coursework:} \underline{3.99} in Thermal Physics; \underline{3.91} in Equilibrium Statistical Physics; \underline{3.95} in Methods for Mathematical Physics; \underline{3.97} in Electrodynamics; \underline{3.93} in Computational Physics; \underline{3.88} in Topics on Nonlinear Physics; \underline{A-} in Physical Chemistry in Cellular and Molecular Biology; \underline{3.95} in Lectures on Systems Biology; \underline{A} in Fundamentals of Network Science and Systems Biology; \underline{A} in Mathematical Modeling in the Life Sciences.
     \end{highlights}
 
-    {\footnotesize\textit{* Beginning in fall 2025, the School of Physics at Peking University no longer provides official GPA or class ranking documents. The GPA shown here is provisional and will be updated using a WES evaluation.}}
+    \begin{gpanote}
+      \textit{* Note:} Beginning in fall 2025, the School of Physics at Peking University no longer provides official GPA or class ranking documents. The GPA shown here is provisional and will be updated using a WES evaluation.
+    \end{gpanote}
   \end{onecolentry}
 
   \section{Standardized Tests}
