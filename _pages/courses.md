@@ -194,14 +194,14 @@ The table below summarizes my coursework by field. Available notes can be downlo
       <td class="course-field" rowspan="30">Life Sciences</td>
       <td class="course-subregion" rowspan="7">Computational and System Biology</td>
       <td class="course-name">Lectures on systems biology</td>
-      <td class="course-professors"><span class="course-professor">Jingdong Jackie Han (韩敬东)</span></td>
+      <td class="course-professors"><span class="course-professor">Jackie Han (韩敬东)</span></td>
       <td class="course-gpa">3.95</td>
       <td class="course-semester">2025 spring</td>
       <td class="course-notes">—</td>
     </tr>
     <tr class="field-life-sciences">
       <td class="course-name">Physical Chemistry in Cellular and Molecular Biology</td>
-      <td class="course-professors"><span class="course-professor">Xiaoliang Sunney Xie (谢晓亮)</span></td>
+      <td class="course-professors"><span class="course-professor">Sunney Xie (谢晓亮)</span></td>
       <td class="course-gpa">3.70</td>
       <td class="course-semester">2025 fall</td>
       <td class="course-notes"><a class="course-note-link" href="https://github.com/JunfengLyu/JunfengLyu.github.io/releases/download/course-notes-v1/PCCMB_2025_fall.pdf" target="_blank" rel="noopener">Download note</a></td>
@@ -222,7 +222,7 @@ The table below summarizes my coursework by field. Available notes can be downlo
     </tr>
     <tr class="field-life-sciences">
       <td class="course-name">Mathematical Modeling in the Life Sciences</td>
-      <td class="course-professors"><span class="course-professor">Letian Louis Tao (陶乐天)</span><span class="course-professor">Jackson Champer</span></td>
+      <td class="course-professors"><span class="course-professor">Louis Tao (陶乐天)</span><span class="course-professor">Jackson Champer</span></td>
       <td class="course-gpa">4.00</td>
       <td class="course-semester">2026 spring</td>
       <td class="course-notes"><a class="course-note-link" href="https://github.com/JunfengLyu/JunfengLyu.github.io/releases/download/course-notes-v1/MMLS_2026_spring.pdf" target="_blank" rel="noopener">Download note</a></td>

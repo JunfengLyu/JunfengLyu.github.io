@@ -94,37 +94,37 @@ html[data-theme="dark"] {
   }
 
   .field-physics > td {
-    background: color-mix(in srgb, #4669f2 12%, var(--global-bg-color));
+    background: color-mix(in srgb, #1d4ed8 13%, var(--global-bg-color));
   }
 
   .field-life-sciences > td {
-    background: color-mix(in srgb, #24d06c 12%, var(--global-bg-color));
+    background: color-mix(in srgb, #0284c7 12%, var(--global-bg-color));
   }
 
   .field-mathematics > td {
-    background: color-mix(in srgb, #f9c932 15%, var(--global-bg-color));
+    background: color-mix(in srgb, #38bdf8 14%, var(--global-bg-color));
   }
 
   .field-computation-ai > td {
-    background: color-mix(in srgb, #e8472b 11%, var(--global-bg-color));
+    background: color-mix(in srgb, #0f4c81 12%, var(--global-bg-color));
   }
 }
 
 html[data-theme="dark"] .courses-table {
   .field-physics > td {
-    background: color-mix(in srgb, #4669f2 19%, var(--global-bg-color));
+    background: color-mix(in srgb, #3b82f6 22%, var(--global-bg-color));
   }
 
   .field-life-sciences > td {
-    background: color-mix(in srgb, #24d06c 18%, var(--global-bg-color));
+    background: color-mix(in srgb, #0ea5e9 20%, var(--global-bg-color));
   }
 
   .field-mathematics > td {
-    background: color-mix(in srgb, #f9c932 18%, var(--global-bg-color));
+    background: color-mix(in srgb, #7dd3fc 18%, var(--global-bg-color));
   }
 
   .field-computation-ai > td {
-    background: color-mix(in srgb, #e8472b 18%, var(--global-bg-color));
+    background: color-mix(in srgb, #2563a6 22%, var(--global-bg-color));
   }
 }
 
