@@ -6,7 +6,7 @@ subtitle: Biophysics &middot; Computational Neuroscience
 
 profile:
   align: right
-  image: Alan_Lyu.jpg
+  image: Profile.jpg
   image_circular: true
   more_info:
 

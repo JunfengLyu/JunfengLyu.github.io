@@ -11,6 +11,10 @@ html[data-theme="dark"] {
 }
 
 .profile img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
   border: 3px solid color-mix(in srgb, var(--global-theme-color) 35%, transparent);
   box-shadow: 0 12px 30px color-mix(in srgb, var(--global-theme-color) 18%, transparent);
 }
