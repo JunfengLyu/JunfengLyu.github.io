@@ -1,6 +1,6 @@
 # Alan Lyu CV
 
-This directory contains the editable LaTeX source for Alan Lyu's CV. It is based on the official [ModernCV](https://github.com/moderncv/moderncv) template and uses the `classic` style with a blue accent.
+This directory contains the editable LaTeX source for Alan Lyu's compact CV. The template uses a 10 pt article layout, narrow list spacing, blue links, and section rules. The section bodies are intentionally empty so their titles, order, and content can be rebuilt from scratch.
 
 ## Preview locally
 
