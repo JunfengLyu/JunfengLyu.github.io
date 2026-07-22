@@ -19,9 +19,9 @@ I am Alan Lyu, an undergraduate student majoring in Physics at Peking University
 
 - **Major:** [Physics](https://english.phy.pku.edu.cn/)
 - **Second Degree:** [Life Science](https://www.bio.pku.edu.cn/en/)
-- **CGPA:** 3.87/4.00\*
+- **CGPA:** 3.97/4.00\*
 
-> *\* Note: Beginning in fall 2025, the School of Physics at Peking University no longer provides official GPA or cohort ranking documents. The GPA shown here is provisional and will be updated using a WES evaluation.*
+> <small><em>\* Note: Beginning in fall 2025, the School of Physics at Peking University no longer provides official GPA or cohort ranking. This GPA was calculated from the original grades of individual courses using the WES conversion method.</em></small>
 
 - **Related Coursework:** <u>3.99</u> in Thermal Physics; <u>3.91</u> in Equilibrium Statistical Physics; <u>3.95</u> in Methods for Mathematical Physics; <u>3.97</u> in Electrodynamics; <u>3.93</u> in Computational Physics; <u>3.88</u> in Topics on Nonlinear Physics; <u>A-</u> in Physical Chemistry in Cellular and Molecular Biology; <u>3.95</u> in Lectures on Systems Biology; <u>A</u> in Fundamentals of Network Science and Systems Biology; <u>A</u> in Mathematical Modeling in the Life Sciences.
 
