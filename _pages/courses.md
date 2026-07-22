@@ -56,7 +56,7 @@ Courses taken at Peking University.
     </tr>
     <tr class="field-physics">
       <td class="course-name">Optics</td>
-      <td class="course-professors"><span class="course-professor">Shufeng Wan</span></td>
+      <td class="course-professors"><span class="course-professor">Shufeng Wang (王树峰)</span></td>
       <td class="course-gpa">3.86</td>
       <td class="course-semester">24 FA</td>
       <td class="course-notes"><a class="course-note-link" href="https://github.com/JunfengLyu/JunfengLyu.github.io/releases/download/course-notes-v1/Optics_2024_fall.pdf" target="_blank" rel="noopener">Download</a></td>
