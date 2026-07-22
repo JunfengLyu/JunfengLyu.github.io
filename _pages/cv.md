@@ -38,7 +38,7 @@ I am Alan Lyu, an undergraduate student majoring in Physics at Peking University
 - National Scholarship of China &amp; Peking University Merit Student Award <span style="float: right;">2024-2025</span>
 - National Scholarship of China &amp; Peking University Merit Student Award <span style="float: right;">2023-2024</span>
 - Finalist in the Mathematical Contest in Modeling (MCM) <span style="float: right;">2026</span>
-- Meritorious Winner in the Mathematical Contest in Modeling (MCM) <span style="float: right;">2025</span>
+- Meritorious in the Mathematical Contest in Modeling (MCM) <span style="float: right;">2025</span>
 - Peking University Undergraduate Physicists' Tournament (PKUPT)
   - Second Prize (Team rank 2/18)
   - Best Opponent and Best Reviewer Awards
