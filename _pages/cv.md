@@ -27,6 +27,10 @@ I am Alan Lyu, an undergraduate student majoring in Physics at Peking University
 
 ## Standardized Tests
 
+- **TOEFL iBT:** 104/120 (Reading: 30; Listening: 23; Speaking: 24; Writing: 27)
+- **GRE General Test:** <u>&emsp;&emsp;&emsp;</u>
+- **GRE Subject Test in Physics:** <u>&emsp;&emsp;&emsp;</u>
+
 ## Research
 
 ## Honors and Awards
