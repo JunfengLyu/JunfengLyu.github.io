@@ -46,15 +46,11 @@ html[data-theme="dark"] {
   }
 
   .col-course {
-    width: 20%;
+    width: 22%;
   }
 
   .col-professor {
-    width: 24%;
-  }
-
-  .col-gpa {
-    width: 6%;
+    width: 27%;
   }
 
   .col-semester {
@@ -62,7 +58,7 @@ html[data-theme="dark"] {
   }
 
   .col-notes {
-    width: 16%;
+    width: 17%;
   }
 
   th,
@@ -107,7 +103,6 @@ html[data-theme="dark"] {
     display: block;
   }
 
-  .course-gpa,
   .course-semester {
     white-space: nowrap;
   }
