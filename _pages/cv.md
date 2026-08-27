@@ -31,7 +31,7 @@ I am Alan Lyu, an undergraduate student majoring in Physics at Peking University
 
 ## **Research**
 
-### Adaptive Sessile-Motile Switching in *Bacillus subtilis*
+##### Building an Agent Based Model to Study the Environmental Adaptability of Sessile/Motile State Switching Strategies in *Bacillus subtilis*
 
 *Advisor: [Prof. Chao Tang](https://cqb.pku.edu.cn/tanglab/index.htm)*
 
@@ -39,7 +39,7 @@ I am Alan Lyu, an undergraduate student majoring in Physics at Peking University
 - Used transfer entropy to compare how agents with bidirectional regulation and one way regulation use environmental information in decision making.
 - Evaluated the adaptive value of the two switching strategies during chemotaxis.
 
-### Functional Optimization of the *Drosophila* Olfactory Circuit
+##### Using a Function Driven Optimization Model to Study the Coding Principles of the *Drosophila* Olfactory Circuit in the Dual Tasks of Gas Motion Sensing and Gradient Sensing
 
 *Advisors: [Prof. Thierry Emonet](https://emonet.biology.yale.edu/) and [Dr. Kevin Chen](https://kschen.scholar.princeton.edu/bio)*
 
@@ -47,7 +47,7 @@ I am Alan Lyu, an undergraduate student majoring in Physics at Peking University
 - Designed a joint task for odor motion and odor gradient sensing under a metabolic constraint and optimized network parameters for task performance.
 - Analyzed the tradeoff between the two sensory tasks within a shared network.
 
-### Emergence of Low Rank Structure in Artificial Neural Networks
+##### Dynamics and Renormalization Analysis of the Emergence of Low Rank Structure in Artificial Neural Networks
 
 *Advisors: [Prof. Yuhai Tu](https://users.flatironinstitute.org/~ytu10/) and Dr. Yikuan Zhang*
 
@@ -59,7 +59,7 @@ I am Alan Lyu, an undergraduate student majoring in Physics at Peking University
 
 ## **Teaching**
 
-### Teaching Assistant (Dry Lab), Cell Biology Laboratory <span style="float: right;">Fall 2026</span>
+##### Teaching Assistant (Dry Lab), Cell Biology Laboratory <span style="float: right;">Fall 2026</span>
 
 *School of Life Sciences, Peking University*
 
