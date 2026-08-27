@@ -63,7 +63,7 @@ I am Alan Lyu, an undergraduate student majoring in Physics at Peking University
 
 *School of Life Sciences, Peking University*
 
-- Will guide undergraduate students in applying computer vision algorithms to identify stages of the cell cycle in HeLa cells labeled by immunofluorescence and in root tip cells of *Vicia faba* stained by the Feulgen method.
+- Guide undergraduate students in applying computer vision algorithms to identify stages of the cell cycle in HeLa cells labeled by immunofluorescence and in root tip cells of *Vicia faba* stained by the Feulgen method.
 
 ---
 
